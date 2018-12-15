@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/style.css" type="text/css" >
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>position css</title>
+	</head>
+	<body>
+		<header>
+			<h1> Box model &  position </h1>
+			<nav>
+				<li><a href="#go-boxmodel">box model</a></li>
+				<li><a href="#go-static">static</a></li>
+				<li><a href="#go-relative">relative</a></li>
+				<li><a href="#go-absolute">absolute</a></li>
+				<li><a href="#go-fixed">fixed</a></li>
+				<li><a href="#go-sticky">sticky</a></li>
+			</nav>
+		</header>
+		<main>
+		<!-- Here example position static -->
+		<section>
+			<article>
+				<h2 id="go-static"> Position static </h2>
+			</article>
+			<article id="static">
+				<article class="static element element-blue">
+					<span class="which-pos">class="static"</span>
+					<p><code>static</code> est la valeur par défaut de tous les éléments. Un élément avec <code>position:
+						static;</code> n'est positionné d'aucune manière spéciale. Un élément static est dit <em>non positionné</em>
+					et un élément avec une propriété position ayant une valeur autre que static est dit<em>
+						positionné</em>.</p> 
+				</article>
+			</article>
+			<article>
+				<a href="#fullscreen-gif"><img src="img/static.gif" class="example" alt="example static
+				position"></a>
+			</article>
+		</section>
+		<!-- Here example position static -->
+
+		<!-- Here example position relative -->
+		<section>
+			<article>
+				<h2 id="go-relative"> Position relative </h2>
+			</article>
+			<article id="relative">
+				<article class="relative1 element element-red">
+					<span class="which-pos">class="static"</span>
+					<p><code>relative</code> se comporte de la même façon que <code>static</code> sauf si vous ajoutez quelques propriétés en plus.</p>
+				</article>
+				<article class="relative2 element element-red">
+					<span class="which-pos">class="relative"</span>
+					<p>Ajouter les propriétés <code>top</code>, <code>right</code>, <code>bottom</code> et <code>left</code> à un
+					élément positionné en relative va le placer ailleurs que sa position normale. Le reste du contenu ne sera pas
+					ajusté pour prendre la place dans l'espace laissé par l'élément.</p>
+				</article>
+			</article>
+			<article>
+				<img src="img/relative.gif" class="example" alt="example relative position">
+			</article>
+		</section>
+		<!-- Here example position relative -->
+
+		<!-- Here example position absolute -->
+		<section>
+			<article>
+				<h2 id="go-absolute"> Position absolute </h2>
+			</article>
+			<article id="absolute">
+				<article class="relative element element-red">
+					<span class="which-pos"> class="relative"</span>
+					<p>Cet élément est positionné en <code>relative</code>. S'il était positionné en <code>position: static;</code> son élément enfant
+					positionné en <code>absolute</code> s'échapperait et serait positionné de manière relative au corps du document.</p>
+					<article class="absolute element element-green">
+						<span class="which-pos">class="absolute"</span>
+						<p>Cet élément est positionné en <code>absolute</code>. Sa position est <code>relative</code> à son parent.</p>
+					</article>
+				</article>
+			</article>
+			<article>
+				<img src="img/absolute.gif" class="example" alt="example relative position">
+			</article>
+		</section>
+		<!-- Here example position absolute -->
+
+		<!-- Here example position fixed -->
+		<section id="fixed">
+			<article>
+				<h2 id="go-fixed"> Position fixed <h2>
+			</article>
+			<article class="fixed element element-yellow">
+				<span class="which-pos" > class="fixed"</span>
+				<p> Je bouge avec votre écran </p>
+			</article>
+		</section>
+		<!-- Here example position fixed -->
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>

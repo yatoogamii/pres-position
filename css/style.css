@@ -1,0 +1,239 @@
+* {
+    margin: 0vw;
+    padding: 0vw;
+    border: 0vw;
+    font-family: Raleway sans-serif;
+    font-size: 1.2vw;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none; 
+	 box-sizing: border-box;
+}
+
+body {
+	font-size: 1.2vw;
+	line-height: 1.8vw;
+	color: #414142;
+	font-family: Arial;
+}
+
+p {
+	margin: 1.2vw 0;
+}
+
+.which-pos {
+	top: 0;
+	left: 0;
+	padding: 0.2vw 0.2vw 0.2vw 0;
+}
+
+.element p {
+	padding: 0 1.2vw;
+}
+
+p code {
+	background-color: #e6e6e6;
+}
+
+.example {
+	position: relative;
+	width: 70vw;
+	height: auto;
+	left: 50vw;
+	transform: translate(-50%,  10%);
+	padding-bottom: 1vw;
+}
+
+/* Header */
+
+h1 {
+	text-align: center;
+	position: relative;
+	width: 60vw;
+	top: 11.6vw;
+	left: 20vw;
+	font-family: Raleway;
+	font-size: 4.6vw;
+	border-bottom: 0.16vw solid #414142; 
+	padding: 3.8vw;
+	white-space: nowrap;
+}
+
+nav {
+	margin-top: 11.5vw;
+	margin-left: 30vw;
+	margin-right: 30vw;
+	background-color: #414142; 
+}
+li {
+	display: inline-block;
+	background-color: #414142;
+	padding: 1vw 0.79vw;
+}
+
+a {
+	color: white;
+	font-variant: small-caps;
+	font-size: 1.2vw;
+}
+
+li:hover {
+	background-color: #545454;
+}
+/* css for box " position static "  */
+#go-static {
+	text-align: center;
+	position: relative;
+	top: 34vw;
+	font-family: Raleway;
+	font-size: 4.6vw;
+	white-space: nowrap;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	z-index: 10;
+}
+
+#static {
+	position: relative;
+	height: 43vw;
+	top: 35vw;
+	border: 0.3vw solid #414142; 
+	background-color: #414142; 
+}
+
+.static {
+	position: relative;
+	width: auto;
+	height: auto;
+	background-color: white;
+}
+
+.element-blue {
+	border: solid #6AC5AC 0.2vw;
+	position: relative;
+}
+
+.element-blue > .which-pos {
+	background-color: #6AC5AC;
+}
+
+/* css for box " position relative "  */
+
+#go-relative {
+	text-align: center;
+	position: relative;
+	top: 34vw;
+	font-family: Raleway;
+	font-size: 4.6vw;
+	white-space: nowrap;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	z-index: 10;
+}
+
+#relative {
+	position: relative;
+	height: 53vw;
+	top: 35vw;
+	border: 0.15vw solid #414142; 
+	background-color: #414142; 
+}
+.relative1 {
+	position: static;
+	width: auto;
+	margin: 0;
+	background-color: white;
+}
+
+.element-red {
+	border: solid #ff4d4d 0.2vw;
+}
+
+.element-red > .which-pos {
+	background-color:  #ff4d4d
+}
+
+.relative2 {
+	position: relative;
+	width: 30%;
+	top: 5vw;
+	left: 50vw;
+	transform: translate(-50%, -40%);
+	margin: 0;
+	background-color: white;
+}
+
+
+/* css for box " position absolute "  */
+
+#go-absolute {
+	text-align: center;
+	position: relative;
+	top: 34vw;
+	font-family: Raleway;
+	font-size: 4.6vw;
+	white-space: nowrap;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	z-index: 10;
+}
+
+#absolute {
+	position: relative;
+	height: 53vw;
+	top: 35vw;
+	border: 0.15vw solid #414142; 
+	background-color: #414142; 
+}
+
+.relative {
+	position: relative;
+	width: 46.1vw;
+	height: 20vw;
+	left: 26vw;
+	background-color: white;
+}
+
+.absolute {
+	position: absolute;
+	top: 8.2vw;
+	right: 1.5vw;
+	left: 23vw;
+	width 23vw;
+	height: auto;
+	background-color: white;
+}
+
+.element-green {
+	border: solid lightgreen 0.2vw;
+}
+.element-green > .which-pos {
+	background-color: lightgreen;
+}
+
+/* css for box bottom right on screen " position fixed "  */
+
+#fixed {
+	position: relative;
+	top: 1000px;
+	border: 2px solid #414142; 
+	background-color: #414142; 
+}
+
+.fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	background-color: white;
+	z-index: 99;
+}
+
+.element-yellow {
+	border: solid #FDC72F 3px;
+}
+
+.element-yellow > .which-pos {
+	background-color: #FDC72F;
+}
+
