@@ -27,7 +27,9 @@ p {
 	padding: 0.2vw 0.2vw 0.2vw 0;
 }
 
-.element p {
+.element > p {
+	padding: 0 0 0 1.1vw;
+	font-size: 1.4vw;
 	padding: 0 1.2vw;
 }
 
@@ -155,8 +157,8 @@ li:hover {
 
 .relative2 {
 	position: relative;
-	width: 30%;
-	top: 5vw;
+	width: 40%;
+	top: 4.5vw;
 	left: 50vw;
 	transform: translate(-50%, -40%);
 	margin: 0;
@@ -213,10 +215,22 @@ li:hover {
 
 /* css for box bottom right on screen " position fixed "  */
 
+#go-fixed {
+	text-align: center;
+	position: relative;
+	top: 34vw;
+	font-family: Raleway;
+	font-size: 4.6vw;
+	white-space: nowrap;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	z-index: 10;
+}
 #fixed {
 	position: relative;
-	top: 1000px;
-	border: 2px solid #414142; 
+	height: 42vw;
+	top: 35vw;
+	border: 0.15vw solid #414142; 
 	background-color: #414142; 
 }
 
@@ -224,16 +238,89 @@ li:hover {
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	width: 200px;
+	width: 15.3vw;
 	background-color: white;
-	z-index: 99;
+	z-index: 9999;
 }
 
+.whatfixed {
+	position: relative;
+	width: 70vw;
+	height: 9vw;
+	left: 12vw;
+	background-color: white;
+}
 .element-yellow {
-	border: solid #FDC72F 3px;
+	border: solid #FDC72F 0.2vw;
 }
 
 .element-yellow > .which-pos {
 	background-color: #FDC72F;
 }
 
+.example-fixed {
+	position: relative;
+	width: 70vw;
+	height: auto;
+	left: 47vw;
+	transform: translate(-50%,  10%);
+}
+
+/* css for box " position sticky "  */
+
+
+#go-sticky {
+	text-align: center;
+	position: relative;
+	top: 34vw;
+	font-family: Raleway;
+	font-size: 4.6vw;
+	white-space: nowrap;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	z-index: 10;
+}
+#sticky {
+	position: relative;
+	height: 37vw;
+	top: 35vw;
+	border: 0.15vw solid #414142; 
+	background-color: #414142; 
+}
+
+.sticky {
+	position: sticky;
+	top: 86vh;
+	width: 11.7vw;
+	background-color: white;
+}
+
+.whatsticky {
+	position: relative;
+	width: 70vw;
+	height: 7.8vw;
+	top: -6.2vw;
+	left: 12vw;
+	background-color: white;
+}
+
+.element-pink {
+	border: solid lightpink 0.2vw;
+}
+.element > p {
+	padding: 0 0 0 1.1vw;
+	font-size: 1.4vw;
+}
+
+.element-pink > .which-pos {
+	background-color: lightpink;
+}
+
+.example-sticky {
+	position: relative;
+	width: 70vw;
+	height: 27vw;
+	top: 1.1vw;
+	left: 47vw;
+	transform: translate(-50%,  20%);
+}
