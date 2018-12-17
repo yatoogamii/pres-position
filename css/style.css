@@ -92,9 +92,9 @@ li:hover {
 .go-exercice-box-model {
 	position: relative;
 	color: white;
+	width: 50vw;
 	top: 32vw;
 	left: 36vw;
-	z-index: 999;
 }
 #img-box-model {
 	position: absolute;
@@ -183,9 +183,9 @@ li:hover {
 .go-exercice-relative {
 	position: relative;
 	color: white;
+	width: 50vw;
 	top: 3vw;
 	left: 36vw;
-	z-index: 999;
 }
 #go-relative {
 	text-align: center;
@@ -243,9 +243,9 @@ li:hover {
 .go-exercice-absolute {
 	position: relative;
 	color: white;
+	width: 50vw;
 	top: 3vw;
 	left: 36vw;
-	z-index: 999;
 }
 #go-absolute {
 	text-align: center;
@@ -304,9 +304,9 @@ li:hover {
 .go-exercice-fixed {
 	position: relative;
 	color: white;
+	width: 50vw;
 	top: 3vw;
 	left: 36vw;
-	z-index: 999;
 }
 #go-fixed {
 	text-align: center;
@@ -364,9 +364,9 @@ li:hover {
 .go-exercice-sticky {
 	position: relative;
 	color: white;
+	width: 50vw;
 	top: 3vw;
 	left: 36vw;
-	z-index: 999;
 }
 
 #go-sticky {
