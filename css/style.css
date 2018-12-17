@@ -37,13 +37,19 @@ p code {
 	background-color: #e6e6e6;
 }
 
-.example {
-	position: relative;
-	width: 70vw;
-	height: auto;
-	left: 50vw;
-	transform: translate(-50%,  10%);
-	padding-bottom: 1vw;
+.go-up {
+	position: fixed;
+	width: 15px;
+	bottom: 11vw;
+	right: 1vw;
+}
+p.go-up {
+	font-size: 1vw;
+	color: black;
+	right: 5vw;
+	bottom: 9.5vw;
+	white-space: nowrap;
+	z-index: 20;
 }
 
 /* Header */
@@ -82,8 +88,22 @@ a {
 li:hover {
 	background-color: #545454;
 }
-/* css for box " position static "  */
-#go-static {
+/* box model */
+.go-exercice-box-model {
+	position: relative;
+	color: white;
+	top: 32vw;
+	left: 36vw;
+	z-index: 999;
+}
+#img-box-model {
+	position: absolute;
+	width: 40vw;
+	height: auto;
+	top: 78vw;
+	left: 30%;
+}
+#go-boxmodel {
 	text-align: center;
 	position: relative;
 	top: 34vw;
@@ -95,10 +115,42 @@ li:hover {
 	z-index: 10;
 }
 
+#boxmodel {
+	position: relative;
+	height: 40vw;
+	top: 35vw;
+	border: 0.3vw solid #414142; 
+	background-color: #414142; 
+}
+
+.boxmodel {
+	position: relative;
+	width: auto;
+	height: auto;
+	background-color: white;
+}
+.element-purple {
+	border: solid #9370DB 0.2vw;
+	position: relative;
+}
+
+/* css for box " position static "  */
+#go-static {
+	text-align: center;
+	position: relative;
+	top: 45vw;
+	font-family: Raleway;
+	font-size: 4.6vw;
+	white-space: nowrap;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	z-index: 10;
+}
+
 #static {
 	position: relative;
 	height: 43vw;
-	top: 35vw;
+	top: 45vw;
 	border: 0.3vw solid #414142; 
 	background-color: #414142; 
 }
@@ -118,9 +170,23 @@ li:hover {
 .element-blue > .which-pos {
 	background-color: #6AC5AC;
 }
+.example-static {
+	position: relative;
+	width: 70vw;
+	height: auto;
+	left: 47vw;
+	transform: translate(-50%,  50%);
+}
 
 /* css for box " position relative "  */
 
+.go-exercice-relative {
+	position: relative;
+	color: white;
+	top: 3vw;
+	left: 36vw;
+	z-index: 999;
+}
 #go-relative {
 	text-align: center;
 	position: relative;
@@ -135,7 +201,7 @@ li:hover {
 
 #relative {
 	position: relative;
-	height: 53vw;
+	height: 57vw;
 	top: 35vw;
 	border: 0.15vw solid #414142; 
 	background-color: #414142; 
@@ -164,10 +230,23 @@ li:hover {
 	margin: 0;
 	background-color: white;
 }
+.example-relative {
+	position: relative;
+	width: 70vw;
+	height: auto;
+	left: 47vw;
+	transform: translate(-50%,  10%);
+}
 
 
 /* css for box " position absolute "  */
-
+.go-exercice-absolute {
+	position: relative;
+	color: white;
+	top: 3vw;
+	left: 36vw;
+	z-index: 999;
+}
 #go-absolute {
 	text-align: center;
 	position: relative;
@@ -212,9 +291,23 @@ li:hover {
 .element-green > .which-pos {
 	background-color: lightgreen;
 }
+.example-absolute {
+	position: relative;
+	width: 70vw;
+	height: auto;
+	left: 47vw;
+	transform: translate(-50%,  10%);
+}
 
 /* css for box bottom right on screen " position fixed "  */
 
+.go-exercice-fixed {
+	position: relative;
+	color: white;
+	top: 3vw;
+	left: 36vw;
+	z-index: 999;
+}
 #go-fixed {
 	text-align: center;
 	position: relative;
@@ -268,6 +361,13 @@ li:hover {
 
 /* css for box " position sticky "  */
 
+.go-exercice-sticky {
+	position: relative;
+	color: white;
+	top: 3vw;
+	left: 36vw;
+	z-index: 999;
+}
 
 #go-sticky {
 	text-align: center;
@@ -282,7 +382,7 @@ li:hover {
 }
 #sticky {
 	position: relative;
-	height: 37vw;
+	height: 42vw;
 	top: 35vw;
 	border: 0.15vw solid #414142; 
 	background-color: #414142; 
@@ -320,7 +420,7 @@ li:hover {
 	position: relative;
 	width: 70vw;
 	height: 27vw;
-	top: 1.1vw;
+	top: -2vw;
 	left: 47vw;
 	transform: translate(-50%,  20%);
 }

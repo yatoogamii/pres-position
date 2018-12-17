@@ -19,6 +19,26 @@
 				</nav>
 			</header>
 			<main>
+			<!-- Here example box model -->
+			<section>
+				<article>
+					<h2 id="go-boxmodel"> Box model </h2>
+				</article>
+				<article id="boxmodel">
+					<article class="boxmodel element element-purple">
+						<p>Le box model c'est ce qu'est chaque <em>élément</em> Html, c'est a dire une première boite nommée
+						<code>Content</code>,  elle même entourait d'une boite nommée <code>border</code>. </p> 
+						<p>Ensuite ont a deux <em>propriétés</em> <code>padding</code> et <code>margin</code> qui définissent les<em> marges intérieures et
+							extérieurs</em>. <code>padding</code> vas définir l'espacement entre la <code>border</code> et le <code>content</code>, <code>margin</code> vas définir
+						l'espacement entre la page et la <code>border</code></p>
+					</article>
+				</article>
+				<article>
+					<a href="https://codepen.io/yatoogamii/pen/GPqrgY" target="_blank"><img src="img/box-model-example.png"
+																					  id="img-box-model" alt="schema box model"></a>
+					<p class="go-exercice-box-model">Cliquez sur l'image pour aller vers l'exercice</p>
+				</article>
+			</section>
 			<!-- Here example position static -->
 			<section>
 				<article>
@@ -34,7 +54,7 @@
 					</article>
 				</article>
 				<article>
-					<img src="img/static.gif" class="example" alt="example static
+					<img src="img/static.gif" class="example-static" alt="example static
 					position">
 				</article>
 			</section>
@@ -58,7 +78,9 @@
 					</article>
 				</article>
 				<article>
-					<a href="https://codepen.io/yatoogamii/pen/qLZgxr" target="_blank"><img src="img/relative.gif" class="example" alt="example relative position"></a>
+					<a href="https://codepen.io/yatoogamii/pen/qLZgxr" target="_blank"><img src="img/relative.gif"
+						class="example-relative" alt="example relative position"></a>
+					<p class="go-exercice-relative">Cliquez sur l'image pour aller vers l'exercice</p>
 				</article>
 			</section>
 			<!-- Here example position relative -->
@@ -80,7 +102,9 @@
 					</article>
 				</article>
 				<article>
-					<a href="https://codepen.io/yatoogamii/pen/maexGE" target="_blank"><img src="img/absolute.gif" class="example" alt="example relative position"></a>
+					<a href="https://codepen.io/yatoogamii/pen/maexGE" target="_blank"><img src="img/absolute.gif"
+						class="example-absolute" alt="example relative position"></a>
+					<p class="go-exercice-absolute">Cliquez sur l'image pour aller vers l'exercice</p>
 				</article>
 			</section>
 			<!-- Here example position absolute -->
@@ -94,9 +118,9 @@
 						<article id="fixed">
 							<article class="fixed element element-yellow">
 								<span class="which-pos" > class="fixed"</span>
-								<p>Je suis <code>fixé</code> à votre écran</p>
+								<p>Ne posez pas de question sur moi pour l'instant</p>
 							</article>
-							<article class="whatfixed element element-pink">
+							<article class="whatfixed element element-yellow">
 								<span class="which-pos" > class="relative"</span>
 								<p>La position <code>fixed</code> fixe l'élément par rapport a la fenêtre du navigateur <em>(viewport)</em>, ce qui
 								signifie qu'il reste toujours a la même place même si la page défile. pour le positionner a
@@ -106,6 +130,7 @@
 					<article>
 						<a href="https://codepen.io/yatoogamii/pen/aPNaez" target="_blank"><img src="img/fixed.gif"
 							class="example-fixed" alt="example fixed position"></a>
+					<p class="go-exercice-fixed">Cliquez sur l'image pour aller vers l'exercice</p>
 					</article>
 			</section>
 			<!-- Here example position fixed -->
@@ -132,10 +157,14 @@
 					<article>
 						<a href="https://codepen.io/yatoogamii/pen/aPNaez" target="_blank"><img src="img/sticky.gif"
 							class="example-sticky" alt="example sticky position"></a>
+					<p class="go-exercice-sticky">Cliquez sur l'image pour aller vers l'exercice</p>
 					</article>
 
 			<!-- Here example position sticky -->
 			</main>
+			<aside>
+				<a href="#"> <img src="img/arrowup.png" class="go-up" alt="go top"><p class="go-up">Go top</p> </a>
+			</aside>
 		<footer>
 		</footer>
 	</body>
