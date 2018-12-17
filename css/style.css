@@ -390,7 +390,7 @@ li:hover {
 
 .sticky {
 	position: sticky;
-	top: 86vh;
+	top: 84vh;
 	width: 11.7vw;
 	background-color: white;
 }
@@ -407,11 +407,6 @@ li:hover {
 .element-pink {
 	border: solid lightpink 0.2vw;
 }
-.element > p {
-	padding: 0 0 0 1.1vw;
-	font-size: 1.4vw;
-}
-
 .element-pink > .which-pos {
 	background-color: lightpink;
 }
